@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'EpicInfluencers.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Epic_Influencers',
-        'HOST':'localhost',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'Harsh@42774'
+        'NAME': '',
+        'HOST':'',
+        'PORT':'',
+        'USER':'',
+        'PASSWORD':''
     }
 }
 
@@ -128,12 +128,12 @@ USE_L10N = True
 USE_TZ = True
 
 #EMAIL CONFIG
-EMAIL_FROM_USER = 'te719654@gmail.com'
+EMAIL_FROM_USER = ''
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'te719654@gmail.com'
-EMAIL_HOST_PASSWORD = 'Test@1234'
-EMAIL_PORT = 587
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = ''
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
